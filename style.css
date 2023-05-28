@@ -1,0 +1,38 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+body{
+    background-color: ivory;
+}
+
+.h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 44px;
+    color: red;
+}
+
+textarea, input, select{
+    background-color: #E0FFFF;
+}
+
+.new{
+    margin: 20px;
+    padding: 2px;
+    display: flex;
+    align-items: center; /*vertical alignment*/
+    flex-direction: column;
+
+}
+
+.row{
+    border-color: darkgreen;
+    border-style: solid;
+    border-width: 4px;
+    margin: 20px;
+    padding: 20px 20px;
+}
